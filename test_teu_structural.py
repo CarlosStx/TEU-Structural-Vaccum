@@ -1,6 +1,7 @@
 import numpy as np
-from src.teu.structural_vacuum import c_eff
-from src.teu.dispersion import omega_k, schrodinger_epsilon
+from structural_vacuum import c_eff
+from dispersion import omega_k, schrodinger_epsilon
+
 
 
 def test_c_eff_positive():
